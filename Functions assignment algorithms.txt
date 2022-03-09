@@ -13,6 +13,6 @@ I. 	1.Take the input of numbers
 			sout(a)
 		elif b<a and b<c:
 			sout(b)
-		else: 5
+		else: 
 			sout(c)
 		
