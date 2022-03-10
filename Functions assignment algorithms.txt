@@ -1,18 +1,43 @@
-Functions algorithms:
-I. 	1.Take the input of numbers
-	2. Create functions max and min
-	3.max(a,b,c):
-		if a>b and a>c:
-			sout(a)
-		elif b>a and b>c:
-			sout(b)
-		else:
-			sout(c)
-	4.min(a,b,c):
-		if a<b and a<c:
-			sout(a)
-		elif b<a and b<c:
-			sout(b)
-		else: 
-			sout(c)
-		
+Functions algorithms (from Q7):
+VII.	1.Take input number as num
+	2.isPrime(num)
+	3.isPrime(n): //defining the function
+		  c=2
+		  cnt=1
+		  if n<1:
+		  	sout("neither prime nor composite.")
+		  while (c*c<=n):
+			if (n%c==0):
+				sout(n+" is not prime.")
+				cnt++
+			c++
+		  if cnt==1:
+			sout(n+"is prime.")
+	4.program terminated.
+	
+VIII.	1.Take input number of subjects as num.
+	2.grades(num)
+	3.grades(num)://defining the function
+		c=1
+		while c<=num:
+			nos=sout("Enter name of subject  : ")
+			mks=sout("Enter the marks in subject + "+nos+" out of hundred.")
+			if mks<=40:
+				sout("Fail.")
+			elif (41<=mks<=50):
+				sout("DD")
+			elif (51<=mks<=60):
+				sout("CD")
+			elif (61<=mks<=70):
+				sout("BC")
+			elif (71<=mks<=80):
+				sout("BB")
+			elif (81<=mks<=90):
+				sout("AB")
+			elif (91<=mks<=100):
+				sout("AA")
+			else:
+				sout("Invalid marks entered.")
+			c++
+	4.Program terminated.
+			
