@@ -69,4 +69,30 @@ X.	1.Take input number as n.
 			sout("Palindrome.")
 		else:
 			sout("Not Palindrome.")
+	
+XII.	1.Take input numbers a,b,c
+	2.isPythagoreantriplet(a,b,c):
+	3.isPythagoreantriplet(num_1,num_2,num_3):
+		if num_1square + num_2square = num_3square (try all possible combinations):
+			sout("Numbers you have entered are Pythagorean triplets.")
+		else:
+			sout("Numbers you have entered are not Pythagorean triplets.")
 			
+XIII.	1.Take input numbers a,b
+	2.givePrime(a,b)
+	3.givePrime(a,b):
+		cnt=0
+		for (int num_1,num_1<=num_2,num_1++):
+			temp=2
+			while temp<num_1:
+				if num_1%temp==0:
+					sout(num_1)
+					cnt++
+					temp++
+				else:
+					temp++
+	4.if cnt==0:
+		sout("There are no prime numbers between a and b.")
+	
+				
+					
