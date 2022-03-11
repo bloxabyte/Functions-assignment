@@ -81,38 +81,37 @@ XII.	1.Take input numbers a,b,c
 XIII.	1.Take input numbers a,b
 	2.givePrime(a,b)
 	3.givePrime(a,b):
-		cnt_1=0
 		if (b-a)==1:
 			sout('no ptime no:s exist in between'+a+' and '+b)
 		elif (a<0)||or(b<0):
 			sout('Invalid number entered.')
 		elif (a==1):
 			for i in range(a+1,b+1):
-				cnt_2=0
+				cnt=0
 				temp=2
 				while temp<i:
 					if i%temp==0:
 						temp++
-						cnt_2++
+						cnt++
 						break
 					else:
 						temp++
 
-				if cnt_2==0:
+				if cnt==0:
 					sout(i+" ")
 		else:
 			for i in range(a,b+1):
-				cnt_2=0
+				cnt=0
 				temp=2
 				while temp<i:
 					if i%temp==0:
 						temp++
-						cnt_2++
+						cnt++
 						break
 					else:
 						temp++
 
-				if cnt_2==0:
+				if cnt==0:
 					sout(i+" ")
 			
 		
