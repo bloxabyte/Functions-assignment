@@ -41,3 +41,18 @@ VIII.	1.Take input number of subjects as num.
 			c++
 	4.Program terminated.
 			
+IX.	1.Take input number as n.
+	2.call the function as factorial(n).
+	3.factorial(int num)://defining the function
+		fact,cnt=1
+		for (cnt<=num;cnt++)
+			fact*=cnt
+		sout(cnt)
+	4.//alternate method using while loop(I have used only for)
+		fact,cnt=1;
+		while(cnt<=n):
+			fact*=cnt
+			cnt++
+		sout(cnt)
+	5.Program terminated.
+	
