@@ -86,7 +86,8 @@ XIII.	1.Take input numbers a,b
 		elif (a<0)||or(b<0):
 			sout('Invalid number entered.')
 		elif (a==1):
-			for i in range(a+1,b+1):
+			__cnt__=0
+			for i in range(a+1,b):
 				cnt=0
 				temp=2
 				while temp<i:
@@ -99,8 +100,12 @@ XIII.	1.Take input numbers a,b
 
 				if cnt==0:
 					sout(i+" ")
+					__cnt__++
+			if __cnt__==0:
+				sout("No prime number exists between "+n+" and "+N+".")
 		else:
-			for i in range(a,b+1):
+			__cnt__=0
+			for i in range(a+1,b):
 				cnt=0
 				temp=2
 				while temp<i:
@@ -113,6 +118,9 @@ XIII.	1.Take input numbers a,b
 
 				if cnt==0:
 					sout(i+" ")
+					__cnt__++
+			if __cnt__==0:
+				sout("No prime number exists between "+n+" and "+N+".")
 			
 		
 				
