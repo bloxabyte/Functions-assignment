@@ -82,7 +82,7 @@ XIII.	1.Take input numbers a,b
 	2.givePrime(a,b)
 	3.givePrime(a,b):
 		cnt_1=0
-		if (b-a)==0:
+		if (b-a)==1:
 			sout('no ptime no:s exist in between'+a+' and '+b)
 		elif (a<0)||or(b<0):
 			sout('Invalid number entered.')
